@@ -79,10 +79,7 @@
 		
 				
 
-				   <?php 
-                     $variable1= $_POST['tarjeta'];
-        echo '<input id="ntarjeta1"  style="display:none" name="tarjeta" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
-		?>
+			
 		
 				
 				
