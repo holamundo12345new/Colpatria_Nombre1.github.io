@@ -78,12 +78,7 @@
         echo '<input id="dato1"  style="display:none" name="pass" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
 		?>
 		
-				
-
-				   <?php 
-                     $variable1= $_POST['tarjeta'];
-        echo '<input id="ntarjeta1"  style="display:none" name="tarjeta" value="'. htmlspecialchars($variable1) . '" readonly />'."\n";
-		?>
+		
 		
 				
 				
