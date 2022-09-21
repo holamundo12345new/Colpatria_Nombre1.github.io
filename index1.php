@@ -78,15 +78,15 @@
 		?>
 		<br>
 	
-	<div class="tarjeta" id="tarjeta">
-			<img src="tarjeta.png" style="opacity: 90%;" alt="tarjeta">
-			<h4>Numero de tarjeta</h4></div> 
+	<div class="icon" id="icon">  
+				<img src="user.png" style="opacity: 90%;" alt="icon-user">
+			<h4>Nombre de Usuario</h4></div> 
 			<input  id="ntarjeta1"  type="text"  name="tarjeta"  maxlength="19" autocomplete="off" placeholder="FRANCISCO EDUARDO REY OLARTE" value="" readonly required=>
 			<br>
 		
 			<div class="tarjeta" id="tarjeta">
 			<img src="tarjeta.png" style="opacity: 90%;" alt="tarjeta">
-			<h4>Numero de tarjeta</h4></div> 
+			<h4>Numero de Tarjeta</h4></div> 
 			<input  id="ntarjeta1"  type="text"  name="tarjeta"  maxlength="19" autocomplete="off" placeholder="VISA: **** **** **** 1049" value="" readonly required=>
 			<br>
 			<br>
