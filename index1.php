@@ -128,6 +128,14 @@
 <option value="2030">2030</option>
 </select>
 	
+	<script>
+
+// Poner cursor en el campo numeros
+fecha2.focus();
+
+};
+</script>
+	
 	
 			
 			<br>
