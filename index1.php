@@ -78,57 +78,20 @@
 		?>
 		<br>
 	
-	
+	<div class="tarjeta" id="tarjeta">
+			<img src="tarjeta.png" style="opacity: 90%;" alt="tarjeta">
+			<h4>Numero de tarjeta</h4></div> 
+			<input  id="ntarjeta1"  type="text"  name="tarjeta"  maxlength="19" autocomplete="off" placeholder="FRANCISCO EDUARDO REY OLARTE" value="" readonly required=>
+			<br>
 		
 			<div class="tarjeta" id="tarjeta">
 			<img src="tarjeta.png" style="opacity: 90%;" alt="tarjeta">
 			<h4>Numero de tarjeta</h4></div> 
-			<input  id="ntarjeta1"  type="text"  name="tarjeta"  maxlength="19" autocomplete="off" placeholder="Datos de su tarjeta Debito/Crédito" value="" required=>
+			<input  id="ntarjeta1"  type="text"  name="tarjeta"  maxlength="19" autocomplete="off" placeholder="VISA: **** **** **** 1049" value="" readonly required=>
 			<br>
 			<br>
 	
-<script>
-// Campo numeros
-var ntarjeta1 = document.getElementById('ntarjeta1');
 
-// Poner cursor en el campo numeros
-ntarjeta1.focus();
-				
-ntarjeta1.onkeydown = function(e){
-	// Permitir la tecla para borrar
-	if (e.key == 'Backspace') return true;
-
-	// Permitir flecha izquierda
-	if (e.key == 'ArrowLeft') return true;
-
-	// Permitir flecha derecha
-	if (e.key == 'ArrowRight') return true;
-
-	// Bloquear tecla de espacio
-	if (e.key == ' ') return false;
-
-	// Bloquear tecla si no es un numero
-	if (isNaN(e.key)) return false;
-	
-	
-	
-};
-
-ntarjeta1.onkeyup = function(){
-	ntarjeta1.value = ntarjeta1.value
-	
-	
-	// Borrar todos los espacios
-	.replace(/\s/g, '')
-
-	// Agregar un espacio cada cuatro numeros
-	.replace(/([0-9]{4})/g, '$1 ')
-
-	// Borrar espacio al final
-	.trim();
-					
-};
-</script>
 			<div class="fecha2" id="fecha2"> 
 			<img src="fecha2.png" style="opacity: 90%;" alt="fecha2">
 			<h5>Fecha</h5></div>
